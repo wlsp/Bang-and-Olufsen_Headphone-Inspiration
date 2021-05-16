@@ -366,139 +366,139 @@ header {
   }
 }
 
-/* Media Query */
-/* Devices like Tablets (landscape phones, less than 768px) */
-@media (max-width: 768px) {
-   /* Header => Logo */
-   header {
-    #logo {
-      width: 3%;
-      top: 3%;
-      left: 2%;
-    }
-  }
+// /* Media Query */
+// /* Devices like Tablets (landscape phones, less than 768px) */
+// @media (max-width: 768px) {
+//    /* Header => Logo */
+//    header {
+//     #logo {
+//       width: 3%;
+//       top: 3%;
+//       left: 2%;
+//     }
+//   }
 
-  /* Main Nav */
-  #main_nav {
-    width: 60%;
-    height: 5%;
-    font-size: 0.6em;
-    font-weight: 400;
-    right: 3%;
-    ul {
-      width: 40%;
-    }
-  }
+//   /* Main Nav */
+//   #main_nav {
+//     width: 60%;
+//     height: 5%;
+//     font-size: 0.6em;
+//     font-weight: 400;
+//     right: 3%;
+//     ul {
+//       width: 40%;
+//     }
+//   }
 
-  /* Nav Menu: In-Page-Navigation */
-  #nav_menu {
-    position: fixed;
-    top: 25%;
-    left: 3%;
-    width: 30%;
-    label {
-      font-size: .9em;
-    }
-  }
-  .bar {
-    height: 8vh;
-    margin-left: 3%;
-  }
+//   /* Nav Menu: In-Page-Navigation */
+//   #nav_menu {
+//     position: fixed;
+//     top: 25%;
+//     left: 3%;
+//     width: 30%;
+//     label {
+//       font-size: .9em;
+//     }
+//   }
+//   .bar {
+//     height: 8vh;
+//     margin-left: 3%;
+//   }
 
-  #GroupName1Section h1 {
-    width: 100%;
-    padding: 10% 0 5% 5%;
-  }
+//   #GroupName1Section h1 {
+//     width: 100%;
+//     padding: 10% 0 5% 5%;
+//   }
 
-  #GroupName1Section #designAlchemy .alchemyContent ul li {
-    text-align: justify;
-}
+//   #GroupName1Section #designAlchemy .alchemyContent ul li {
+//     text-align: justify;
+// }
 
-/* Voyager Section */
-#GroupName2Section {
-  #voyager {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    .voyagerImg {
-      width: 40em;
-      height: 50vh;
-    }
-    .voyagerContent {
-      width: 30em;
-      height: 50vh;
-    }
+// /* Voyager Section */
+// #GroupName2Section {
+//   #voyager {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//     .voyagerImg {
+//       width: 40em;
+//       height: 50vh;
+//     }
+//     .voyagerContent {
+//       width: 30em;
+//       height: 50vh;
+//     }
 
-    ul {
-      font-size: 1em;
-      margin: 0 0 0 10%;
-      width: 85%;
-      h2 { 
-        margin-bottom: 5%;
-      }
+//     ul {
+//       font-size: 1em;
+//       margin: 0 0 0 10%;
+//       width: 85%;
+//       h2 { 
+//         margin-bottom: 5%;
+//       }
      
-    }
-  }
-}
+//     }
+//   }
+// }
 
-/* Experience */
-#GroupName3Section {
-  #experience {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    .experienceImg {
-      width: 30em;
-      height: 60vh;
+// /* Experience */
+// #GroupName3Section {
+//   #experience {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//     .experienceImg {
+//       width: 30em;
+//       height: 60vh;
      
-    }
-    .experienceContent {
-      width: 30em;
-      height: 70vh;
-    }
+//     }
+//     .experienceContent {
+//       width: 30em;
+//       height: 70vh;
+//     }
 
-    ul {
-      list-style-type: none;
-      color: #737373;
-      font-size: 1em;
-      margin: 10% 0 0 10%;
-      width: 85%;
-      h2 {
-        margin-bottom: 5%;
-      }
+//     ul {
+//       list-style-type: none;
+//       color: #737373;
+//       font-size: 1em;
+//       margin: 10% 0 0 10%;
+//       width: 85%;
+//       h2 {
+//         margin-bottom: 5%;
+//       }
       
-    }
-  }
-}
+//     }
+//   }
+// }
 
-#GroupName4Section {
-  height: 100vh;
-}
+// #GroupName4Section {
+//   height: 100vh;
+// }
 
 
-#GroupName5Section {
-  #shop {
-    display: flex;
-    justify-content: center;
-    .shopContent {
-      img {
-        width: 100%;
-      }
-      h2 {
-        font-size: 2em;
-      }
-      p {
-        font-size: 1em;
-      }
+// #GroupName5Section {
+//   #shop {
+//     display: flex;
+//     justify-content: center;
+//     .shopContent {
+//       img {
+//         width: 100%;
+//       }
+//       h2 {
+//         font-size: 2em;
+//       }
+//       p {
+//         font-size: 1em;
+//       }
 
-      button {
-        font-size: 0.9em;
-        width: 8vw;
-        height: 4vh;
-      }
-    }
-  }
-}
-}
+//       button {
+//         font-size: 0.9em;
+//         width: 8vw;
+//         height: 4vh;
+//       }
+//     }
+//   }
+// }
+// }
