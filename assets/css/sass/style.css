@@ -270,14 +270,14 @@ header #logo {
   list-style-type: none;
   color: #737373;
   font-size: 1.3rem;
-  margin: 15% 0 0 10%;
+  margin: 10% 0 0 10%;
   width: 63%;
 }
 
 #GroupName3Section #experience ul h2 {
   font-weight: 200;
-  font-size: 2rem;
-  margin-bottom: 10%;
+  font-size: 1.8rem;
+  margin-bottom: 8%;
   color: #eaccc2;
 }
 
