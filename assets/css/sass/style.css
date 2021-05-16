@@ -96,7 +96,7 @@ header #logo {
 #nav_menu label {
   display: block;
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 2rem;
 }
 
 #nav_menu label span {
@@ -192,7 +192,7 @@ header #logo {
 }
 
 #GroupName1Section #designAlchemy .alchemyContent ul li {
-  line-height: 1.3rem;
+  line-height: 2rem;
   margin-bottom: 3%;
 }
 
@@ -237,7 +237,7 @@ header #logo {
 }
 
 #GroupName2Section #voyager ul li {
-  line-height: 1.3rem;
+  line-height: 2rem;
   margin-bottom: 3%;
 }
 
@@ -282,7 +282,7 @@ header #logo {
 }
 
 #GroupName3Section #experience ul li {
-  line-height: 1.3rem;
+  line-height: 2rem;
   margin-bottom: 3%;
 }
 
@@ -348,7 +348,7 @@ header #logo {
 #GroupName4Section table div p {
   font-size: 1.2rem;
   color: #737373;
-  line-height: 1.3rem;
+  line-height: 2rem;
 }
 
 #GroupName4Section table div button {
@@ -404,7 +404,7 @@ header #logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  line-height: 1.6rem;
+  line-height: 2rem;
 }
 
 #GroupName5Section #shop .shopContent img {
