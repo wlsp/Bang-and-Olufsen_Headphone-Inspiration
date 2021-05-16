@@ -11,6 +11,12 @@ color:  #2e2e2e / #867772 / #eaccc2 / #ebccc2 / #fff / #737373;
           box-sizing: border-box;
 }
 
+/* Adjust text insde the HTML */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 /* Remove default margin */
 * {
   margin: 0;
@@ -270,7 +276,7 @@ header #logo {
   list-style-type: none;
   color: #737373;
   font-size: 1.3rem;
-  margin: 10% 0 0 10%;
+  margin: 15% 0 0 10%;
   width: 63%;
 }
 
@@ -468,7 +474,7 @@ header #logo {
     width: 30%;
   }
   #nav_menu label {
-    font-size: .9em;
+    font-size: 0.9em;
   }
   .bar {
     height: 8vh;

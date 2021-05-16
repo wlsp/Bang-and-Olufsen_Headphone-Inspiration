@@ -11,6 +11,12 @@ color:  #2e2e2e / #867772 / #eaccc2 / #ebccc2 / #fff / #737373;
   box-sizing: border-box;
 }
 
+/* Adjust text insde the HTML */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 /* Remove default margin */
 * {
   margin: 0;
@@ -224,7 +230,7 @@ header {
       list-style-type: none;
       color: #737373;
       font-size: 1.3rem;
-      margin: 10% 0 0 10%;
+      margin: 15% 0 0 10%;
       width: 63%;
       h2 {
         font-weight: 200;
@@ -366,8 +372,8 @@ header {
 /* Media Query */
 /* Devices like Tablets (landscape phones, less than 768px) */
 @media (max-width: 768px) {
-   /* Header => Logo */
-   header {
+  /* Header => Logo */
+  header {
     #logo {
       width: 3%;
       top: 3%;
@@ -394,7 +400,7 @@ header {
     left: 3%;
     width: 30%;
     label {
-      font-size: .9em;
+      font-size: 0.9em;
     }
   }
   .bar {
@@ -409,93 +415,89 @@ header {
 
   #GroupName1Section #designAlchemy .alchemyContent ul li {
     text-align: justify;
-}
-
-/* Voyager Section */
-#GroupName2Section {
-  #voyager {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    .voyagerImg {
-      width: 40em;
-      height: 50vh;
-    }
-    .voyagerContent {
-      width: 30em;
-      height: 50vh;
-    }
-
-    ul {
-      font-size: 1em;
-      margin: 0 0 0 10%;
-      width: 85%;
-      h2 { 
-        margin-bottom: 5%;
-      }
-     
-    }
   }
-}
 
-/* Experience */
-#GroupName3Section {
-  #experience {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    .experienceImg {
-      width: 30em;
-      height: 60vh;
-     
-    }
-    .experienceContent {
-      width: 30em;
-      height: 70vh;
-    }
-
-    ul {
-      list-style-type: none;
-      color: #737373;
-      font-size: 1em;
-      margin: 10% 0 0 10%;
-      width: 85%;
-      h2 {
-        margin-bottom: 5%;
+  /* Voyager Section */
+  #GroupName2Section {
+    #voyager {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      .voyagerImg {
+        width: 40em;
+        height: 50vh;
       }
-      
-    }
-  }
-}
-
-#GroupName4Section {
-  height: 100vh;
-}
-
-
-#GroupName5Section {
-  #shop {
-    display: flex;
-    justify-content: center;
-    .shopContent {
-      img {
-        width: 100%;
+      .voyagerContent {
+        width: 30em;
+        height: 50vh;
       }
-      h2 {
-        font-size: 2em;
-      }
-      p {
+
+      ul {
         font-size: 1em;
-      }
-
-      button {
-        font-size: 0.9em;
-        width: 8vw;
-        height: 4vh;
+        margin: 0 0 0 10%;
+        width: 85%;
+        h2 {
+          margin-bottom: 5%;
+        }
       }
     }
   }
-}
+
+  /* Experience */
+  #GroupName3Section {
+    #experience {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      .experienceImg {
+        width: 30em;
+        height: 60vh;
+      }
+      .experienceContent {
+        width: 30em;
+        height: 70vh;
+      }
+
+      ul {
+        list-style-type: none;
+        color: #737373;
+        font-size: 1em;
+        margin: 10% 0 0 10%;
+        width: 85%;
+        h2 {
+          margin-bottom: 5%;
+        }
+      }
+    }
+  }
+
+  #GroupName4Section {
+    height: 100vh;
+  }
+
+  #GroupName5Section {
+    #shop {
+      display: flex;
+      justify-content: center;
+      .shopContent {
+        img {
+          width: 100%;
+        }
+        h2 {
+          font-size: 2em;
+        }
+        p {
+          font-size: 1em;
+        }
+
+        button {
+          font-size: 0.9em;
+          width: 8vw;
+          height: 4vh;
+        }
+      }
+    }
+  }
 }
