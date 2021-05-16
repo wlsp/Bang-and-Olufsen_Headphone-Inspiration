@@ -134,7 +134,7 @@ header #logo {
 #GroupName1Section h1 {
   font-weight: 300;
   color: #eaccc2;
-  width: 70%;
+  width: 60%;
   padding: 10% 0 10% 30%;
   font-size: 2.3rem;
 }
@@ -160,7 +160,7 @@ header #logo {
 }
 
 #GroupName1Section #designAlchemy .alchemyImg > img:nth-of-type(1) {
-  width: 70%;
+  width: 80%;
 }
 
 #GroupName1Section #designAlchemy .alchemyContent {
@@ -180,8 +180,8 @@ header #logo {
 #GroupName1Section #designAlchemy .alchemyContent ul {
   list-style-type: none;
   color: #737373;
-  font-size: 0.8rem;
-  width: 92%;
+  font-size: 1.3rem;
+  width: 80%;
 }
 
 #GroupName1Section #designAlchemy .alchemyContent ul h2 {
@@ -192,7 +192,7 @@ header #logo {
 }
 
 #GroupName1Section #designAlchemy .alchemyContent ul li {
-  line-height: 1.6rem;
+  line-height: 1.3rem;
   margin-bottom: 3%;
 }
 
@@ -224,7 +224,7 @@ header #logo {
 #GroupName2Section #voyager ul {
   list-style-type: none;
   color: #737373;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   margin: 15% 0 0 10%;
   width: 60%;
 }
@@ -232,7 +232,7 @@ header #logo {
 #GroupName2Section #voyager ul h2 {
   font-weight: 200;
   font-size: 2rem;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
   color: #eaccc2;
 }
 
@@ -269,7 +269,7 @@ header #logo {
 #GroupName3Section #experience ul {
   list-style-type: none;
   color: #737373;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   margin: 15% 0 0 10%;
   width: 63%;
 }
@@ -332,28 +332,28 @@ header #logo {
 
 #GroupName4Section table div h3 {
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #eaccc2;
   padding-bottom: 1%;
 }
 
 #GroupName4Section table div h2 {
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 5%;
   width: 80%;
   color: #eaccc2;
 }
 
 #GroupName4Section table div p {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   color: #737373;
   line-height: 1.3rem;
 }
 
 #GroupName4Section table div button {
   color: #737373;
-  font-size: 0.6rem;
+  font-size: 1rem;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 5%;
@@ -413,18 +413,18 @@ header #logo {
 
 #GroupName5Section #shop .shopContent h2 {
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #eaccc2;
 }
 
 #GroupName5Section #shop .shopContent p {
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   color: #737373;
 }
 
 #GroupName5Section #shop .shopContent button {
   color: #737373;
-  font-size: 0.6rem;
+  font-size: 1rem;
   background-color: #ebccc2;
   border: 1px solid #737373;
   border-radius: 5%;
