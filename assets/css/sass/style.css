@@ -51,7 +51,7 @@ header #logo {
           align-items: center;
   width: 45%;
   height: 15%;
-  font-size: 0.6em;
+  font-size: 0.8rem;
   font-weight: 300;
   right: 3%;
 }
@@ -95,8 +95,8 @@ header #logo {
 
 #nav_menu label {
   display: block;
-  font-size: 0.5em;
-  line-height: 2em;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
 }
 
 #nav_menu label span {
@@ -118,7 +118,7 @@ header #logo {
 .bar {
   content: "";
   height: 8vh;
-  width: 0.01em;
+  width: 0.01rem;
   background: #867772;
   margin-top: 1%;
   margin-left: 2.8%;
@@ -154,7 +154,7 @@ header #logo {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  width: 80%;
+  width: 85%;
   margin: 10% auto;
 }
 
@@ -179,19 +179,19 @@ header #logo {
 #GroupName1Section #designAlchemy .alchemyContent ul {
   list-style-type: none;
   color: #737373;
-  font-size: 0.7em;
+  font-size: 0.8rem;
   width: 92%;
 }
 
 #GroupName1Section #designAlchemy .alchemyContent ul h2 {
   font-weight: 200;
-  font-size: 2.3em;
+  font-size: 2.3rem;
   margin-bottom: 5%;
   color: #eaccc2;
 }
 
 #GroupName1Section #designAlchemy .alchemyContent ul li {
-  line-height: 1.6em;
+  line-height: 1.6rem;
   margin-bottom: 3%;
 }
 
@@ -203,11 +203,12 @@ header #logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100vh;
 }
 
 #GroupName2Section #voyager .voyagerImg {
-  width: 30em;
-  height: 100vh;
+  width: 60%;
+  height: 100%;
   background-image: url(../../img/section-voyager.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -215,27 +216,27 @@ header #logo {
 }
 
 #GroupName2Section #voyager .voyagerContent {
-  width: 30em;
-  height: 100vh;
+  width: 60%;
+  height: 100%;
 }
 
 #GroupName2Section #voyager ul {
   list-style-type: none;
   color: #737373;
-  font-size: 0.7em;
-  margin: 20% 0 0 10%;
+  font-size: 0.7rem;
+  margin: 15% 0 0 10%;
   width: 60%;
 }
 
 #GroupName2Section #voyager ul h2 {
   font-weight: 200;
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 20%;
   color: #eaccc2;
 }
 
 #GroupName2Section #voyager ul li {
-  line-height: 1.6em;
+  line-height: 1.3rem;
   margin-bottom: 3%;
 }
 
@@ -247,10 +248,11 @@ header #logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100vh;
 }
 
 #GroupName3Section #experience .experienceImg {
-  width: 30em;
+  width: 60%;
   height: 100vh;
   background-image: url(../../img/section-experience-1.jpg);
   background-position: center;
@@ -259,27 +261,27 @@ header #logo {
 }
 
 #GroupName3Section #experience .experienceContent {
-  width: 30em;
+  width: 60%;
   height: 100vh;
 }
 
 #GroupName3Section #experience ul {
   list-style-type: none;
   color: #737373;
-  font-size: 0.7em;
-  margin: 20% 0 0 10%;
+  font-size: 0.7rem;
+  margin: 15% 0 0 10%;
   width: 63%;
 }
 
 #GroupName3Section #experience ul h2 {
   font-weight: 200;
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 10%;
   color: #eaccc2;
 }
 
 #GroupName3Section #experience ul li {
-  line-height: 1.6em;
+  line-height: 1.3rem;
   margin-bottom: 3%;
 }
 
@@ -329,28 +331,28 @@ header #logo {
 
 #GroupName4Section table div h3 {
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1rem;
   color: #eaccc2;
   padding-bottom: 1%;
 }
 
 #GroupName4Section table div h2 {
   font-weight: 200;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-bottom: 5%;
   width: 80%;
   color: #eaccc2;
 }
 
 #GroupName4Section table div p {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   color: #737373;
-  line-height: 1.6em;
+  line-height: 1.3rem;
 }
 
 #GroupName4Section table div button {
   color: #737373;
-  font-size: 0.6em;
+  font-size: 0.6rem;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 5%;
@@ -373,11 +375,12 @@ header #logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100vh;
 }
 
 #GroupName5Section #shop .shopImg {
-  width: 30em;
-  height: 100vh;
+  width: 60%;
+  height: 100%;
   background-image: url(../../img/section-composition4.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -385,8 +388,8 @@ header #logo {
 }
 
 #GroupName5Section #shop .shopContent {
-  width: 30em;
-  height: 100vh;
+  width: 60%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,7 +403,7 @@ header #logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  line-height: 1.6em;
+  line-height: 1.6rem;
 }
 
 #GroupName5Section #shop .shopContent img {
@@ -409,18 +412,18 @@ header #logo {
 
 #GroupName5Section #shop .shopContent h2 {
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1rem;
   color: #eaccc2;
 }
 
 #GroupName5Section #shop .shopContent p {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   color: #737373;
 }
 
 #GroupName5Section #shop .shopContent button {
   color: #737373;
-  font-size: 0.6em;
+  font-size: 0.6rem;
   background-color: #ebccc2;
   border: 1px solid #737373;
   border-radius: 5%;
@@ -434,5 +437,133 @@ header #logo {
 #GroupName5Section #shop .shopContent button:hover {
   background-color: #737373;
   color: #ebccc2;
+}
+
+/* Media Query */
+/* Devices like Tablets (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  /* Header => Logo */
+  header #logo {
+    width: 3%;
+    top: 3%;
+    left: 2%;
+  }
+  /* Main Nav */
+  #main_nav {
+    width: 60%;
+    height: 5%;
+    font-size: 0.6em;
+    font-weight: 400;
+    right: 3%;
+  }
+  #main_nav ul {
+    width: 40%;
+  }
+  /* Nav Menu: In-Page-Navigation */
+  #nav_menu {
+    position: fixed;
+    top: 25%;
+    left: 3%;
+    width: 30%;
+  }
+  #nav_menu label {
+    font-size: .9em;
+  }
+  .bar {
+    height: 8vh;
+    margin-left: 3%;
+  }
+  #GroupName1Section h1 {
+    width: 100%;
+    padding: 10% 0 5% 5%;
+  }
+  #GroupName1Section #designAlchemy .alchemyContent ul li {
+    text-align: justify;
+  }
+  /* Voyager Section */
+  #GroupName2Section #voyager {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  #GroupName2Section #voyager .voyagerImg {
+    width: 40em;
+    height: 50vh;
+  }
+  #GroupName2Section #voyager .voyagerContent {
+    width: 30em;
+    height: 50vh;
+  }
+  #GroupName2Section #voyager ul {
+    font-size: 1em;
+    margin: 0 0 0 10%;
+    width: 85%;
+  }
+  #GroupName2Section #voyager ul h2 {
+    margin-bottom: 5%;
+  }
+  /* Experience */
+  #GroupName3Section #experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  #GroupName3Section #experience .experienceImg {
+    width: 30em;
+    height: 60vh;
+  }
+  #GroupName3Section #experience .experienceContent {
+    width: 30em;
+    height: 70vh;
+  }
+  #GroupName3Section #experience ul {
+    list-style-type: none;
+    color: #737373;
+    font-size: 1em;
+    margin: 10% 0 0 10%;
+    width: 85%;
+  }
+  #GroupName3Section #experience ul h2 {
+    margin-bottom: 5%;
+  }
+  #GroupName4Section {
+    height: 100vh;
+  }
+  #GroupName5Section #shop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #GroupName5Section #shop .shopContent img {
+    width: 100%;
+  }
+  #GroupName5Section #shop .shopContent h2 {
+    font-size: 2em;
+  }
+  #GroupName5Section #shop .shopContent p {
+    font-size: 1em;
+  }
+  #GroupName5Section #shop .shopContent button {
+    font-size: 0.9em;
+    width: 8vw;
+    height: 4vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */

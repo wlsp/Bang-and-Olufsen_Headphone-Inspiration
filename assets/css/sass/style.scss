@@ -17,8 +17,6 @@ color:  #2e2e2e / #867772 / #eaccc2 / #ebccc2 / #fff / #737373;
   padding: 0;
 }
 
-
-
 /* Page Setting */
 body {
   background-color: #2e2e2e;
@@ -49,7 +47,7 @@ header {
   align-items: center;
   width: 45%;
   height: 15%;
-  font-size: 0.6em;
+  font-size: 0.8rem;
   font-weight: 300;
   right: 3%;
   a {
@@ -81,8 +79,8 @@ header {
   width: 20%;
   label {
     display: block;
-    font-size: 0.5em;
-    line-height: 2em;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
     span {
       color: #737373;
       margin-left: 8%;
@@ -103,7 +101,7 @@ header {
 .bar {
   content: "";
   height: 8vh;
-  width: 0.01em;
+  width: 0.01rem;
   background: #867772;
   margin-top: 1%;
   margin-left: 2.8%;
@@ -133,7 +131,7 @@ header {
     display: flex;
     justify-content: center;
     height: 100%;
-    width: 80%;
+    width: 85%;
     margin: 10% auto;
     .alchemyImg > img:nth-of-type(1) {
       width: 70%;
@@ -147,16 +145,16 @@ header {
       ul {
         list-style-type: none;
         color: #737373;
-        font-size: 0.7em;
+        font-size: 0.8rem;
         width: 92%;
         h2 {
           font-weight: 200;
-          font-size: 2.3em;
+          font-size: 2.3rem;
           margin-bottom: 5%;
           color: #eaccc2;
         }
         li {
-          line-height: 1.6em;
+          line-height: 1.6rem;
           margin-bottom: 3%;
         }
       }
@@ -169,33 +167,34 @@ header {
   #voyager {
     display: flex;
     justify-content: center;
+    height: 100vh;
     .voyagerImg {
-      width: 30em;
-      height: 100vh;
+      width: 60%;
+      height: 100%;
       background-image: url(../../img/section-voyager.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
     .voyagerContent {
-      width: 30em;
-      height: 100vh;
+      width: 60%;
+      height: 100%;
     }
 
     ul {
       list-style-type: none;
       color: #737373;
-      font-size: 0.7em;
-      margin: 20% 0 0 10%;
+      font-size: 0.7rem;
+      margin: 15% 0 0 10%;
       width: 60%;
       h2 {
         font-weight: 200;
-        font-size: 2em;
+        font-size: 2rem;
         margin-bottom: 20%;
         color: #eaccc2;
       }
       li {
-        line-height: 1.6em;
+        line-height: 1.3rem;
         margin-bottom: 3%;
       }
     }
@@ -207,8 +206,9 @@ header {
   #experience {
     display: flex;
     justify-content: center;
+    height: 100vh;
     .experienceImg {
-      width: 30em;
+      width: 60%;
       height: 100vh;
       background-image: url(../../img/section-experience-1.jpg);
       background-position: center;
@@ -216,24 +216,24 @@ header {
       background-size: cover;
     }
     .experienceContent {
-      width: 30em;
+      width: 60%;
       height: 100vh;
     }
 
     ul {
       list-style-type: none;
       color: #737373;
-      font-size: 0.7em;
-      margin: 20% 0 0 10%;
+      font-size: 0.7rem;
+      margin: 15% 0 0 10%;
       width: 63%;
       h2 {
         font-weight: 200;
-        font-size: 2em;
+        font-size: 2rem;
         margin-bottom: 10%;
         color: #eaccc2;
       }
       li {
-        line-height: 1.6em;
+        line-height: 1.3rem;
         margin-bottom: 3%;
       }
     }
@@ -272,26 +272,26 @@ header {
 
       h3 {
         font-weight: 200;
-        font-size: 1em;
+        font-size: 1rem;
         color: #eaccc2;
         padding-bottom: 1%;
       }
       h2 {
         font-weight: 200;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         margin-bottom: 5%;
         width: 80%;
         color: #eaccc2;
       }
       p {
-        font-size: 0.7em;
+        font-size: 0.7rem;
         color: #737373;
-        line-height: 1.6em;
+        line-height: 1.3rem;
       }
 
       button {
         color: #737373;
-        font-size: 0.6em;
+        font-size: 0.6rem;
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 5%;
@@ -312,40 +312,41 @@ header {
   #shop {
     display: flex;
     justify-content: center;
+    height: 100vh;
     .shopImg {
-      width: 30em;
-      height: 100vh;
+      width: 60%;
+      height: 100%;
       background-image: url(../../img/section-composition4.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
     .shopContent {
-      width: 30em;
-      height: 100vh;
+      width: 60%;
+      height: 100%;
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      line-height: 1.6em;
+      line-height: 1.6rem;
       img {
         width: 55%;
       }
 
       h2 {
         font-weight: 200;
-        font-size: 1em;
+        font-size: 1rem;
         color: #eaccc2;
       }
 
       p {
-        font-size: 0.7em;
+        font-size: 0.7rem;
         color: #737373;
       }
 
       button {
         color: #737373;
-        font-size: 0.6em;
+        font-size: 0.6rem;
         background-color: #ebccc2;
         border: 1px solid #737373;
         border-radius: 5%;
@@ -362,139 +363,139 @@ header {
   }
 }
 
-// /* Media Query */
-// /* Devices like Tablets (landscape phones, less than 768px) */
-// @media (max-width: 768px) {
-//    /* Header => Logo */
-//    header {
-//     #logo {
-//       width: 3%;
-//       top: 3%;
-//       left: 2%;
-//     }
-//   }
+/* Media Query */
+/* Devices like Tablets (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+   /* Header => Logo */
+   header {
+    #logo {
+      width: 3%;
+      top: 3%;
+      left: 2%;
+    }
+  }
 
-//   /* Main Nav */
-//   #main_nav {
-//     width: 60%;
-//     height: 5%;
-//     font-size: 0.6em;
-//     font-weight: 400;
-//     right: 3%;
-//     ul {
-//       width: 40%;
-//     }
-//   }
+  /* Main Nav */
+  #main_nav {
+    width: 60%;
+    height: 5%;
+    font-size: 0.6em;
+    font-weight: 400;
+    right: 3%;
+    ul {
+      width: 40%;
+    }
+  }
 
-//   /* Nav Menu: In-Page-Navigation */
-//   #nav_menu {
-//     position: fixed;
-//     top: 25%;
-//     left: 3%;
-//     width: 30%;
-//     label {
-//       font-size: .9em;
-//     }
-//   }
-//   .bar {
-//     height: 8vh;
-//     margin-left: 3%;
-//   }
+  /* Nav Menu: In-Page-Navigation */
+  #nav_menu {
+    position: fixed;
+    top: 25%;
+    left: 3%;
+    width: 30%;
+    label {
+      font-size: .9em;
+    }
+  }
+  .bar {
+    height: 8vh;
+    margin-left: 3%;
+  }
 
-//   #GroupName1Section h1 {
-//     width: 100%;
-//     padding: 10% 0 5% 5%;
-//   }
+  #GroupName1Section h1 {
+    width: 100%;
+    padding: 10% 0 5% 5%;
+  }
 
-//   #GroupName1Section #designAlchemy .alchemyContent ul li {
-//     text-align: justify;
-// }
+  #GroupName1Section #designAlchemy .alchemyContent ul li {
+    text-align: justify;
+}
 
-// /* Voyager Section */
-// #GroupName2Section {
-//   #voyager {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 100vh;
-//     .voyagerImg {
-//       width: 40em;
-//       height: 50vh;
-//     }
-//     .voyagerContent {
-//       width: 30em;
-//       height: 50vh;
-//     }
+/* Voyager Section */
+#GroupName2Section {
+  #voyager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .voyagerImg {
+      width: 40em;
+      height: 50vh;
+    }
+    .voyagerContent {
+      width: 30em;
+      height: 50vh;
+    }
 
-//     ul {
-//       font-size: 1em;
-//       margin: 0 0 0 10%;
-//       width: 85%;
-//       h2 { 
-//         margin-bottom: 5%;
-//       }
+    ul {
+      font-size: 1em;
+      margin: 0 0 0 10%;
+      width: 85%;
+      h2 { 
+        margin-bottom: 5%;
+      }
      
-//     }
-//   }
-// }
+    }
+  }
+}
 
-// /* Experience */
-// #GroupName3Section {
-//   #experience {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 100vh;
-//     .experienceImg {
-//       width: 30em;
-//       height: 60vh;
+/* Experience */
+#GroupName3Section {
+  #experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .experienceImg {
+      width: 30em;
+      height: 60vh;
      
-//     }
-//     .experienceContent {
-//       width: 30em;
-//       height: 70vh;
-//     }
+    }
+    .experienceContent {
+      width: 30em;
+      height: 70vh;
+    }
 
-//     ul {
-//       list-style-type: none;
-//       color: #737373;
-//       font-size: 1em;
-//       margin: 10% 0 0 10%;
-//       width: 85%;
-//       h2 {
-//         margin-bottom: 5%;
-//       }
+    ul {
+      list-style-type: none;
+      color: #737373;
+      font-size: 1em;
+      margin: 10% 0 0 10%;
+      width: 85%;
+      h2 {
+        margin-bottom: 5%;
+      }
       
-//     }
-//   }
-// }
+    }
+  }
+}
 
-// #GroupName4Section {
-//   height: 100vh;
-// }
+#GroupName4Section {
+  height: 100vh;
+}
 
 
-// #GroupName5Section {
-//   #shop {
-//     display: flex;
-//     justify-content: center;
-//     .shopContent {
-//       img {
-//         width: 100%;
-//       }
-//       h2 {
-//         font-size: 2em;
-//       }
-//       p {
-//         font-size: 1em;
-//       }
+#GroupName5Section {
+  #shop {
+    display: flex;
+    justify-content: center;
+    .shopContent {
+      img {
+        width: 100%;
+      }
+      h2 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
 
-//       button {
-//         font-size: 0.9em;
-//         width: 8vw;
-//         height: 4vh;
-//       }
-//     }
-//   }
-// }
-// }
+      button {
+        font-size: 0.9em;
+        width: 8vw;
+        height: 4vh;
+      }
+    }
+  }
+}
+}
