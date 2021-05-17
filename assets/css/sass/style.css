@@ -62,6 +62,10 @@ header #logo {
   right: 3%;
 }
 
+#main_nav span:hover {
+  cursor: pointer;
+}
+
 #main_nav a {
   text-decoration: none;
   color: #867772;
@@ -609,6 +613,291 @@ header #logo {
     font-size: 0.9em;
     width: 8vw;
     height: 4vh;
+  }
+}
+
+/*News Letter*/
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #4e4e4e;
+  background-color: rgba(64, 64, 64, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+  background-color: #383838;
+  margin: 2% auto;
+  border: 1px solid #ebccc2;
+  width: 70%;
+}
+
+/* The Close Button */
+.close {
+  color: #737373;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-right: 3%;
+  z-index: 2;
+}
+
+.close:hover,
+.close:focus {
+  color: #900;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+}
+
+.logo {
+  position: fixed;
+  top: 7%;
+  width: 18%;
+  left: 45%;
+  -webkit-transition: -webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.left {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation-name: left;
+          animation-name: left;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-image: url(../../img/beoplay-h95-newsletter.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+}
+
+.header > h2 {
+  margin: 0;
+  font-weight: 200;
+  color: #ebccc2;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.header > p {
+  margin-top: 1rem;
+  font-weight: 100;
+  font-size: 1.1rem;
+  color: #737373;
+}
+
+.form {
+  max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form > p {
+  font-size: .7rem;
+  color: #737373;
+  padding-top: 5%;
+}
+
+.form-input {
+  height: 2.5rem;
+  padding: 0 .8rem;
+  border: none;
+  border-bottom: 1px solid #ebccc2;
+  background-color: #383838;
+  font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+  width: 100%;
+  outline: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-top: 1.5rem;
+}
+
+input {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+input::-webkit-input-placeholder {
+  font-size: .9rem;
+  color: #867772;
+}
+
+#span_Email, #span_FirstName, #span_LastName {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+button {
+  color: #737373;
+  font-size: 0.9em;
+  background-color: transparent;
+  border: 1px solid #737373;
+  border-radius: 5%;
+  width: 10rem;
+  height: 2.5rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  margin-top: 5%;
+  font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+}
+
+button:hover {
+  background-color: #ebccc2;
+  color: #fff;
+}
+
+.animation {
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.first {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.secound {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+
+.third {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+.fourth {
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+
+.fifth {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+.sixth {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.seventh {
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+
+.eigth {
+  -webkit-animation-delay: 3.0s;
+          animation-delay: 3.0s;
+}
+
+@-webkit-keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes left {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    padding: 1.2rem 2.4rem;
+    width: 25rem;
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    padding: 1.2rem 2.4rem;
+    width: 25rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

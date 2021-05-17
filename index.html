@@ -12,7 +12,7 @@
       <header>
         <img src="assets/img/logo.svg" id="logo" alt="Logo" />
         <nav id="main_nav">
-          <li><a href="./assets/html/newsletter.html" onclick="window.open(this.href, 'newsLetter', 'width=1100 height=700 , top=0, left=2360'); return false;" >Subscribe & Contact</a></li>
+          <li><a><span id="subscribe">Subscribe</span> & <span id="contact">Contact</span></a></li>
           <ul>
             <li><a href="">facebook</a></li>
             <li><a href="">Twitter</a></li>
@@ -183,6 +183,50 @@
           </div>
         </div>
       </section>
+  <!-- Newsletter -->
+<div id="newsLetter" class="modal">
+  <div class="modal-content">
+    <div class="container">
+      <img class="logo" src="./assets/img/primary_logo.svg" alt="">
+    <div class="left">
+      <div class="header">
+        <h2 class="animation first">Join us</h2>
+        <p class="animation secound">
+          Sign up for exclusive access to receive customised product news,
+          special offers & invites.
+        </p>
+      </div>
+      <form action="//submit.form" class="form" onSubmit="return validateForm();">
+        <input type="email" class="form-input animation third" id="data_4" name="data_2" placeholder="Email" />
+        <span id="span_Email"></span>
+        <input type="text" class="form-input animation fourth" id="data_1" name="data_2"  placeholder="First name" />
+        <span id="span_FirstName"></span>
+        <input type="text" class="form-input animation fifth"  id="data_2" name="data_4"  placeholder="Last name" />
+        <span id="span_LastName"></span>
+        <button class="animation sixth">
+          SUBSCRIBE <span>&#10230;</span>
+        </button>
+        <p class="animation seventh">
+          By signing up to our newsletter you accept that Bang & Olufsen as
+          well as Bang & Olufsen branded shops can contact you by email. You
+          are welcome to unsubscribe at any time. For more information about
+          what we do with your personal data see our
+          <a href="https://corporate.bang-olufsen.com/en/legal/privacy-policy?_ga=2.65752686.1169655967.1621081628-2037423706.1620902532" >privacy policy.</a>
+        </p>
+        <p class="animation seventh">
+          This site is protected by reCAPTCHA and the Google
+          <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+          <a href="https://policies.google.com/terms">Terms of Service</a>
+          apply.
+        </p>
+      </form>
+    </div>
+    <div class="right">
+      <span class="close animation eigth">&times;</span>
+    </div>
+  </div>
+  </div>
+</div>
     </main>
     <script src="assets/js/app.js"></script>
   </body>

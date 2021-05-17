@@ -56,6 +56,9 @@ header {
   font-size: 1rem;
   font-weight: 300;
   right: 3%;
+  span:hover {
+    cursor: pointer;
+  }
   a {
     text-decoration: none;
     color: #867772;
@@ -551,4 +554,219 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
     }
   }
 }
+/*News Letter*/
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden; 
+  background-color: rgb(78, 78, 78); 
+  background-color: hsla(0, 0%, 25%, 0.4);
+}
 
+/* Modal Content/Box */
+.modal-content {
+  font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+  background-color: #383838;
+  margin: 2% auto; 
+  border: 1px solid #ebccc2;
+  width: 70%;
+}
+
+/* The Close Button */
+.close {
+  color: #737373;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-right: 3%;
+  z-index: 2;
+}
+
+.close:hover,
+.close:focus {
+  color: #900;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+}
+.logo {
+  position: fixed;
+  top: 7%;
+  width: 18%;
+  left: 45%;
+  transition: transform 1.2s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.left {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: left;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+.right {
+  flex: 1;
+  height: 100%;
+  transition: 1s;
+  background-image: url(../../img/beoplay-h95-newsletter.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+}
+
+.header > h2 {
+  margin: 0;
+  font-weight: 200;
+  color: #ebccc2;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.header > p {
+  margin-top: 1rem;
+  font-weight: 100;
+  font-size: 1.1rem;
+  color: #737373;
+}
+
+.form {
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form > p {
+  font-size: .7rem;
+  color: #737373;
+  padding-top: 5%;
+}
+
+.form-input {
+  height: 2.5rem;
+  padding: 0 .8rem;
+  border: none;
+  border-bottom: 1px solid #ebccc2;
+  background-color: #383838;
+  font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+  width: 100%;
+  outline: 0;
+  transition: 0.2s;
+  margin-top: 1.5rem;
+}
+
+input{
+  color:white;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+input::-webkit-input-placeholder {
+  font-size: .9rem;
+  color: #867772;
+}
+
+#span_Email, #span_FirstName, #span_LastName{
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+button {
+  color: #737373;
+  font-size: 0.9em;
+  background-color: transparent;
+  border: 1px solid #737373;
+  border-radius: 5%;
+  width: 10rem;
+  height: 2.5rem;
+  transition: 0.8s;
+  margin-top: 5%;
+  font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+}
+
+button:hover {
+  background-color: #ebccc2;
+  color: #fff;
+}
+
+.animation {
+  animation-name: move;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+}
+
+.first {
+  animation-delay: 2s;
+}
+
+.secound {
+  animation-delay: 2.1s;
+}
+
+.third {
+  animation-delay: 2.2s;
+}
+
+.fourth {
+  animation-delay: 2.3s;
+}
+
+.fifth {
+  animation-delay: 2.4s;
+}
+
+.sixth {
+  animation-delay: 2.5s;
+}
+
+.seventh {
+  animation-delay: 2.8s;
+}
+
+.eigth {
+  animation-delay: 3.0s;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+
+  100% {
+    opacity: 1;
+    padding: 1.2rem 2.4rem;
+    width: 25rem;
+  }
+}
