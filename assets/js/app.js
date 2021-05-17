@@ -20,16 +20,17 @@ function validateForm() {
     if (!validateEmail(document.getElementById('data_4').value.trim())) {
         span_Email.innerHTML ='Email must be a valid email address.';
         return false;
-    }
+    } 
     if (isEmpty(document.getElementById('data_1').value.trim())) {
-    span_FirstName.innerHTML = 'The "First name" field is a required field.';
+    span_FirstName.innerHTML = 'The "First name" field is a mandatory field.';
         return false;
     }
     if (isEmpty(document.getElementById('data_2').value.trim())) {
-        span_LastName.innerHTML = 'The "Last name" field is a required field.';
+        span_LastName.innerHTML = 'The "Last name" field is a mandatory field.';
         return false;
     }
     return true;
+    
 }
 function isEmpty(str) { return (str.length === 0 || !str.trim()); }
 function validateEmail(email) {
