@@ -239,7 +239,7 @@ header {
         color: #eaccc2;
       }
       li {
-        line-height: 1.8rem;
+        line-height: 2rem;
         margin-bottom: 3%;
       }
     }
@@ -369,8 +369,12 @@ header {
   }
 }
 
+
+
+
+
 /* Media Query */
-/* Devices like Tablets (landscape phones, less than 768px) */
+/* Devices like Tablets */
 @media (max-width: 768px) {
   /* Header => Logo */
   header {
@@ -383,11 +387,11 @@ header {
 
   /* Main Nav */
   #main_nav {
-    width: 60%;
+    width: 50%;
     height: 5%;
     font-size: 0.6em;
     font-weight: 400;
-    right: 3%;
+    right: 2%;
     ul {
       width: 40%;
     }
@@ -396,85 +400,134 @@ header {
   /* Nav Menu: In-Page-Navigation */
   #nav_menu {
     position: fixed;
-    top: 25%;
+    top: 15%;
     left: 3%;
     width: 30%;
     label {
-      font-size: 0.9em;
+      font-size: 0.8em;
     }
   }
+
   .bar {
-    height: 8vh;
+    height: 6vh;
     margin-left: 3%;
   }
 
-  #GroupName1Section h1 {
+  /* About-Hero Section */
+#GroupName1Section {
+  h1 {
     width: 80%;
     padding: 10% 0 5% 25%;
-  }
-
-  #GroupName1Section #designAlchemy .alchemyContent ul li {
-    text-align: justify;
-  }
-
-  /* Voyager Section */
-  #GroupName2Section {
-    #voyager {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      .voyagerImg {
-        width: 40em;
-        height: 50vh;
-      }
-      .voyagerContent {
-        width: 30em;
-        height: 50vh;
-      }
-
-      ul {
-        font-size: 1em;
-        margin: 0 0 0 10%;
-        width: 85%;
-        h2 {
-          margin-bottom: 5%;
-        }
-      }
     }
+  figure {
+    display: flex;
+    flex:1;
   }
-
-  /* Experience */
-  #GroupName3Section {
-    #experience {
+  figure > img:nth-of-type(1) {
+    width: 100%;
+  }
+  #designAlchemy {
+    .alchemyImg > img:nth-of-type(1) {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      .experienceImg {
-        width: 30em;
-        height: 60vh;
-      }
-      .experienceContent {
-        width: 30em;
-        height: 70vh;
-      }
+    flex:1;
+      width: 100%;
+    }
+    .alchemyContent {
+      display: flex;
+    flex:.5;
 
+      flex-basis: 30%;
       ul {
         list-style-type: none;
         color: #737373;
-        font-size: 1em;
-        margin: 10% 0 0 10%;
-        width: 85%;
+        font-size: 1rem;
+        width: 95%;
         h2 {
-          margin-bottom: 5%;
+          font-size: 2rem;
+        }
+        li {
+          line-height: 1.6rem;
         }
       }
     }
   }
+}
+
+/* Voyager Section */
+#GroupName2Section {
+  #voyager {
+    ul {
+      font-size: 1rem;
+      margin: 10% 0 0 10%;
+      width: 80%;
+      h2 {
+        font-size: 1.8rem;
+      }
+      li {
+        line-height: 1.5rem;
+        margin-bottom: 3%;
+      }
+    }
+  }
+}
+
+
+/* Experience */
+#GroupName3Section {
+  #experience {
+    ul {
+      font-size: .9rem;
+      margin: 10% 0 0 10%;
+      width: 80%;
+      h2 {
+        font-size: 1.8rem;
+      }
+      li {
+        line-height: 1.4rem;
+        margin-bottom: 3%;
+      }
+    }
+  }
+}
 
   #GroupName4Section {
     height: 100vh;
+    
+    table {
+      text-align: right;
+      padding-top: 5%;
+      width: 90%;
+      td > div:nth-of-type(1) {
+        margin: 10% 0;
+      }
+      .etcContent {
+        padding-left: 5%;
+        h2 {
+          font-size: 1.8rem;
+          width: 100%;
+        }
+      }
+      div {
+        h3 {
+          font-size: 1.5rem;
+        }
+        h2 {
+          font-size: 1.8rem;
+          width: 100%;
+        }
+        p {
+          font-size: 1rem;
+          color: #737373;
+          line-height: 1.6rem;
+        }
+  
+        button {
+          font-size: .8rem;
+          width: 8vw;
+          height: 6vh;
+        }
+      }
+    }
   }
 
   #GroupName5Section {
@@ -483,7 +536,7 @@ header {
       justify-content: center;
       .shopContent {
         img {
-          width: 100%;
+          width: 70%;
         }
         h2 {
           font-size: 2em;
@@ -495,9 +548,10 @@ header {
         button {
           font-size: 0.9em;
           width: 8vw;
-          height: 4vh;
+          height: 8vh;
         }
       }
     }
   }
 }
+

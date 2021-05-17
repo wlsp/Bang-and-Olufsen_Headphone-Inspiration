@@ -288,7 +288,7 @@ header #logo {
 }
 
 #GroupName3Section #experience ul li {
-  line-height: 1.8rem;
+  line-height: 2rem;
   margin-bottom: 3%;
 }
 
@@ -447,7 +447,7 @@ header #logo {
 }
 
 /* Media Query */
-/* Devices like Tablets (landscape phones, less than 768px) */
+/* Devices like Tablets */
 @media (max-width: 768px) {
   /* Header => Logo */
   header #logo {
@@ -457,11 +457,11 @@ header #logo {
   }
   /* Main Nav */
   #main_nav {
-    width: 60%;
+    width: 50%;
     height: 5%;
     font-size: 0.6em;
     font-weight: 400;
-    right: 3%;
+    right: 2%;
   }
   #main_nav ul {
     width: 40%;
@@ -469,86 +469,124 @@ header #logo {
   /* Nav Menu: In-Page-Navigation */
   #nav_menu {
     position: fixed;
-    top: 25%;
+    top: 15%;
     left: 3%;
     width: 30%;
   }
   #nav_menu label {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .bar {
-    height: 8vh;
+    height: 6vh;
     margin-left: 3%;
   }
+  /* About-Hero Section */
   #GroupName1Section h1 {
     width: 80%;
     padding: 10% 0 5% 25%;
   }
-  #GroupName1Section #designAlchemy .alchemyContent ul li {
-    text-align: justify;
-  }
-  /* Voyager Section */
-  #GroupName2Section #voyager {
+  #GroupName1Section figure {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100vh;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
-  #GroupName2Section #voyager .voyagerImg {
-    width: 40em;
-    height: 50vh;
+  #GroupName1Section figure > img:nth-of-type(1) {
+    width: 100%;
   }
-  #GroupName2Section #voyager .voyagerContent {
-    width: 30em;
-    height: 50vh;
-  }
-  #GroupName2Section #voyager ul {
-    font-size: 1em;
-    margin: 0 0 0 10%;
-    width: 85%;
-  }
-  #GroupName2Section #voyager ul h2 {
-    margin-bottom: 5%;
-  }
-  /* Experience */
-  #GroupName3Section #experience {
+  #GroupName1Section #designAlchemy .alchemyImg > img:nth-of-type(1) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100vh;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
   }
-  #GroupName3Section #experience .experienceImg {
-    width: 30em;
-    height: 60vh;
+  #GroupName1Section #designAlchemy .alchemyContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: .5;
+        -ms-flex: .5;
+            flex: .5;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
   }
-  #GroupName3Section #experience .experienceContent {
-    width: 30em;
-    height: 70vh;
-  }
-  #GroupName3Section #experience ul {
+  #GroupName1Section #designAlchemy .alchemyContent ul {
     list-style-type: none;
     color: #737373;
-    font-size: 1em;
+    font-size: 1rem;
+    width: 95%;
+  }
+  #GroupName1Section #designAlchemy .alchemyContent ul h2 {
+    font-size: 2rem;
+  }
+  #GroupName1Section #designAlchemy .alchemyContent ul li {
+    line-height: 1.6rem;
+  }
+  /* Voyager Section */
+  #GroupName2Section #voyager ul {
+    font-size: 1rem;
     margin: 10% 0 0 10%;
-    width: 85%;
+    width: 80%;
+  }
+  #GroupName2Section #voyager ul h2 {
+    font-size: 1.8rem;
+  }
+  #GroupName2Section #voyager ul li {
+    line-height: 1.5rem;
+    margin-bottom: 3%;
+  }
+  /* Experience */
+  #GroupName3Section #experience ul {
+    font-size: .9rem;
+    margin: 10% 0 0 10%;
+    width: 80%;
   }
   #GroupName3Section #experience ul h2 {
-    margin-bottom: 5%;
+    font-size: 1.8rem;
+  }
+  #GroupName3Section #experience ul li {
+    line-height: 1.4rem;
+    margin-bottom: 3%;
   }
   #GroupName4Section {
     height: 100vh;
+  }
+  #GroupName4Section table {
+    text-align: right;
+    padding-top: 5%;
+    width: 90%;
+  }
+  #GroupName4Section table td > div:nth-of-type(1) {
+    margin: 10% 0;
+  }
+  #GroupName4Section table .etcContent {
+    padding-left: 5%;
+  }
+  #GroupName4Section table .etcContent h2 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  #GroupName4Section table div h3 {
+    font-size: 1.5rem;
+  }
+  #GroupName4Section table div h2 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  #GroupName4Section table div p {
+    font-size: 1rem;
+    color: #737373;
+    line-height: 1.6rem;
+  }
+  #GroupName4Section table div button {
+    font-size: .8rem;
+    width: 8vw;
+    height: 6vh;
   }
   #GroupName5Section #shop {
     display: -webkit-box;
@@ -559,7 +597,7 @@ header #logo {
             justify-content: center;
   }
   #GroupName5Section #shop .shopContent img {
-    width: 100%;
+    width: 70%;
   }
   #GroupName5Section #shop .shopContent h2 {
     font-size: 2em;
@@ -570,7 +608,7 @@ header #logo {
   #GroupName5Section #shop .shopContent button {
     font-size: 0.9em;
     width: 8vw;
-    height: 4vh;
+    height: 8vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
