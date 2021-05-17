@@ -369,13 +369,11 @@ header {
   }
 }
 
-
-
-
-
 /* Media Query */
-/* Devices like Tablets */
-@media (max-width: 768px) {
+/* Device: iPad 10th Generation */
+@media (max-width: 810px) 
+and (max-height: 1080px) 
+and (-webkit-min-device-pixel-ratio: 1.5)  {
   /* Header => Logo */
   header {
     #logo {
@@ -458,7 +456,7 @@ header {
   #voyager {
     ul {
       font-size: 1rem;
-      margin: 10% 0 0 10%;
+      margin: 45% 0 0 10%;
       width: 80%;
       h2 {
         font-size: 1.8rem;
@@ -477,7 +475,7 @@ header {
   #experience {
     ul {
       font-size: .9rem;
-      margin: 10% 0 0 10%;
+      margin: 45% 0 0 10%;
       width: 80%;
       h2 {
         font-size: 1.8rem;
@@ -492,7 +490,6 @@ header {
 
   #GroupName4Section {
     height: 100vh;
-    
     table {
       text-align: right;
       padding-top: 5%;
@@ -524,7 +521,7 @@ header {
         button {
           font-size: .8rem;
           width: 8vw;
-          height: 6vh;
+          height: 4vh;
         }
       }
     }
@@ -548,7 +545,7 @@ header {
         button {
           font-size: 0.9em;
           width: 8vw;
-          height: 8vh;
+          height: 4vh;
         }
       }
     }
